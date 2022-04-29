@@ -1,0 +1,38 @@
+<button id="fname" class="float-left submit-button" >Jugar</button>
+
+<script type="text/javascript">
+    document.getElementById("fname").onclick = function () {
+        location.href = "trivia.html";
+    };
+
+localStogare.getItem ()
+
+function saludo (name)
+document.write("Hola"+ name)
+saludo ("Sonia")
+
+var myScore;
+
+//Funcion para crear "imprimir" el nombre del usuario en pantalla//
+function gettingUserName(){ 
+    console.log(localStorage.getItem("fname").value);
+    document.getElementById("greeting").innerHTML +=           localStorage.getItem("fname")+"!";
+      }
+gettingUserName()
+
+        
+link href="https://fonts.google.com/specimen/Bubblegum+Sans#standard-styles" rel="stylesheet">    
+NIÑOS QUE SABEN LEER
+
+ background-color: #daafee;
+  color: #e89696;
+  border: none;
+  display: block;
+  width:100%;
+  cursor: pointer;
+  font-family: Bubblegum Sans;
+  padding: 5px;
+
+
+WILD ANIMALS IMAGE
+<div class="salvajes" input type="button" onclick= "location.href='triviasalvajes.html'"><h3>Animales Salvajes</h3> <img width=100px src="https://previews.123rf.com/images/sararoom/sararoom1403/sararoom140300013/26552175-vect <r-illustration-of-wild-animals-cartoons.jpg"></button>

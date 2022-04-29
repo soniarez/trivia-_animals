@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>trivia animales domesticos</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <!--INTRO SECTION-->
+    <div class="intro">
+    <h1>TRIVIA ANIMALES DOMÉSTICOS</h1>
+    </div>
+
+    <!--TRIVIA SECTION-->
+    <!--Question #1-->
+    <div class="trivia2">
+      <form class="trivia-form" id="trivia2">
+        <div class="question"> 
+          <h3>1.¿Cuál es animal más fiel?</h3>
+          <label class="answer">
+            <input type="radio" name="d1" value="a" id="f1">
+          Tortuga
+            <img height=80px src="Img/turtle.png">
+    
+          </label>
+          <label class="answer">
+            <input type="radio" name="d1" value="b" id="f2">
+          Perro
+            <img height=80px src="Img/dog.png">
+            </label>
+          <label class="answer">
+          <input type="radio" name="d1" value="c" id="f3">
+          Pato
+          <img height=80px src="Img/duck.png">
+            </label>
+        </div>
+
+        <!--Question #2-->
+        <div class="question">
+          <h3>2.¿Cuál es un roedor?</h3>
+          <label class="answer">
+            <input type="radio" name="qd2" value="a" id="r1">
+          Hamster 
+            <img height=80px src="Img/hamster.png">
+          </label>
+          <label class="answer">
+            <input type="radio" name="qd2" value="b" id="r2">
+          Pez
+            <img height=80px src="Img/fish.png">
+          </label>
+          <label class="answer">
+            <input type="radio" name="qd2" value="c" id="r3">
+           Caballo 
+            <img height=80px src="Img/horse.png">
+          </label>
+        </div>
+
+        <!--Question #3-->
+        <div class="question">
+          <h3>3.¿Qué animal ronronea?</h3>
+          <label class="answer">
+            <input type="radio" name="qd3" value="a" id="rr1">
+            Conejo
+           <img height=80px src="Img/bunny.png">
+          </label>
+          <label class="answer">
+            <input type="radio" name="qd3" value="b" id="rr2">
+            Pájaro
+            <img height=80px src="Img/bird.png">
+          </label>
+          <label class="answer">
+            <input type="radio" name="qd3" value="c" id="rr3">
+            Gato
+            <img height=80px src="Img/cat.png">
+          </label>
+        </div>
+    
+        <!--Button, para enviar las respuestas-->
+        <br></br><div class="btn" button onclick="validateAnswers2()">Enviar</button></div>
+        <div class="button-jugar-nvo" input type="button" onclick="location.href='index.html'" value="Jugar de nuevo">Jugar de nuevo</div> 
+      
+          </form>
+    </div>
+    <script src="domesticos.js"></script>
+  </body>
+</html>

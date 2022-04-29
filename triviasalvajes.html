@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>trivia animales salvajes</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <!--INTRO SECTION-->
+    <div class="intro">
+    <h1>TRIVIA ANIMALES SALVAJES</h1>
+    </div>
+    
+    <!--TRIVIA SECTION-->
+    <!--Question #1-->
+    <div class="trivia">
+      <form class="trivia-form" id="trivia">
+        <div class="question"> 
+          <h3>1.¿Cuál es el felino más rápido del mundo?</h3>
+          <label class="answer">
+            <input type="radio" name="q1" value="a" id="m1">
+            León       
+            <img height=80px src="Img/lion.png">
+          </label>
+          <label class="answer">
+            <input type="radio" name="q1" value="b" id="m2">
+            Tigre
+            <img height=60px src="Img/tiger.png">
+            </label>
+          <label class="answer">
+          <input type="radio" name="q1" value="c" id="m3">
+            Guepardo
+          <img height=80px src="Img/cheetah2.png">
+            </label>
+        </div>
+
+        <!--Question #2-->
+        <div class="question">
+          <h3>2.¿Cuál es considerada el ave más grande del mundo?</h3>
+          <label class="answer">
+            <input type="radio" name="q2" value="a" id="b1">
+            Avestruz
+            <img height=80px src="Img/ostrich.png">
+          </label>
+          <label class="answer">
+            <input type="radio" name="q2" value="b" id="b2">
+            Pavo real
+          <img height=70px src="Img/peacock.png">
+          </label>
+          <label class="answer">
+            <input type="radio" name="q2" value="c" id="b3">
+            Cóndor
+            <img height=80px src="Img/condor.png">
+          </label>
+        </div>
+
+        <!--Question #3-->
+        <div class="question">
+          <h3>3.¿Qué animal duerme más horas al día?</h3>
+          <label class="answer">
+            <input type="radio" name="q3" value="a" id="a1">
+            Koala
+          <img height=80px src="Img/koala.png">
+          </label>
+          <label class="answer">
+            <input type="radio" name="q3" value="b" id="a2">
+            Perezoso
+            <img height=80px src="Img/sloth.png">
+          </label>
+          <label class="answer">
+            <input type="radio" name="q3" value="c" id="a3">
+            Oso
+           <img height=80px src="Img/bear.png">
+          </label>
+        </div>
+
+        <!--Button, para enviar las respuestas-->
+        <br></br><div class="button-enviar" button onclick="validateAnswers()">Enviar</button></div>
+        <div class="button-jugar-nvo" input type="button" onclick="location.href='index.html'" value="Jugar de nuevo">Jugar de nuevo</div> 
+        
+    </div>
+      </form>
+    
+    <!-- Primer botón que hicimos para redirigir <href="temas.html">Volver a jugar</a> --> 
+    
+    <script src="script.js"></script>
+  </body>
+</html>
